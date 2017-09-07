@@ -1,0 +1,5 @@
+/** Your theme modifications here **/
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white !important;
+    background-color: #cc0033 !important;
+}

@@ -1,0 +1,12 @@
+@mixin transformY($int, $transition, $ease){
+  -ms-transform: translateY($int); /* IE 9 */
+  -webkit-transform: translateY($int); /* Chrome, Safari, Opera */
+  transform: translateY($int);
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+  transition-timing-function: $ease;
+  -webkit-transition-timing-function: $ease;
+}
